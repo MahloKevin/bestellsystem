@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8"></meta>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/styles.css">
@@ -50,59 +50,57 @@
     <div class="container p-5">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <h2 class="mahlo_red">Aktuelles Mittagessen</h2>
-            <div class="carousel-inner d-flex flex-row">
-                <!-- ############## DIESE FUNKTION SOLL ZUKÜNFTIG DYNAMISCH VON REACT ERSTELLT WERDEN -->
-                <div class="carousel-item active row justify-content-center">
-                    <div class="card">
-                        <img class="card-img-top img-thumbnail" src="#" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titel dynamisch</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card-wrapper container-sm d-flex justify-content-around">
+                        <div class="card">
+                            <img src="img/food1.jpg" class="card-img-top object-fit-cover">
+                            <div class="card-body">
+                                <h5 class="card-title">Joghurt</h5>
+                                <p class="preis">2€</p>
+                                <a href="#" class="btn btn-success">Zum Produkt -&gt;</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card 2</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                        <div class="card">
+                            <img src="img/schrank.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Schrank</h5>
+                                <p class="preis">VB 400€</p>
+                                <a href="#" class="btn btn-success">Zum Produkt -&gt;</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item">
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card 3</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                    <div class="card-wrapper container-sm d-flex justify-content-around">
+                        <div class="card">
+                            <img src="img/rasenmaeher.webp" class="card-img-top obect-fit-cover">
+                            <div class="card-body">
+                                <h5 class="card-title">Rasenmäher</h5>
+                                <p class="preis">VB 75€</p>
+                                <a href="#" class="btn btn-success">Zum Produkt -&gt;</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card 4</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                        <div class="card">
+                            <img src="img/ship.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Boot</h5>
+                                <p class="preis">VB</p>
+                                <a href="#" class="btn btn-success">Zum Produkt -&gt;</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <button class="carousel-control-prev bg-black" type="button"
-                            data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next bg-black" type="button"
-                            data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+                <button class="carousel-control-prev bg-black" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next bg-black" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
