@@ -13,8 +13,10 @@
 </head>
 <body>
 <header>
+    <nav id="navigation"></nav>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
+            <p id="Test"></p>
             <a href="#" class="navbar-brand">Bestellsystem</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -44,50 +46,49 @@
 
 <main>
     <div class="container">
-        <p id="test"></p>
         <h1 class="mahlo_red text-center">Wilkommen in der Mahlo Kantine</h1>
     </div>
-    <div class="container p-5">
+    <div class="container">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <h2 class="mahlo_red">Aktuelles Mittagessen</h2>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="card-wrapper container-sm d-flex justify-content-around">
-                        <div class="card">
-                            <img src="img/food1.jpg" class="card-img-top object-fit-cover">
+                        <div class="card card_fit">
+                            <img src="img/food1.jpg" class="card-img-top food_picture">
                             <div class="card-body">
-                                <h5 class="card-title">Joghurt</h5>
-                                <p class="preis">2€</p>
-                                <a href="#" class="btn btn-success">Zum Produkt -&gt;</a>
+                                <h5 class="card-title">Frühlingsrollen</h5>
+                                <p>3€</p>
+                                <a href="#" class="btn btn-danger">Zum Produkt -&gt;</a>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="img/food2.png" class="card-img-top object-fit-cover "
+                        <div class="card card_fit">
+                            <img src="img/food2.png" class="card-img-top food_picture"
                                  alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Schrank</h5>
-                                <p class="preis">VB 400€</p>
-                                <a href="#" class="btn btn-success">Zum Produkt -&gt;</a>
+                                <h5 class="card-title">Burger</h5>
+                                <p>5€</p>
+                                <a href="#" class="btn btn-danger">Zum Produkt -&gt;</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card-wrapper container-sm d-flex justify-content-around">
-                        <div class="card">
-                            <img src="img/food3.jpg" class="card-img-top obect-fit-cover ">
+                        <div class="card card_fit">
+                            <img src="img/food3.jpg" class="card-img-top food_picture">
                             <div class="card-body">
-                                <h5 class="card-title">Rasenmäher</h5>
-                                <p class="preis">VB 75€</p>
-                                <a href="#" class="btn btn-success">Zum Produkt -&gt;</a>
+                                <h5 class="card-title">Pasta</h5>
+                                <p>5€</p>
+                                <a href="#" class="btn btn-danger">Zum Produkt -&gt;</a>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="img/food4.jpg" class="card-img-top object-fit-cover">
+                        <div class="card card_fit">
+                            <img src="img/food4.jpg" class="card-img-top food_picture">
                             <div class="card-body">
-                                <h5 class="card-title">Boot</h5>
-                                <p class="preis">VB</p>
-                                <a href="#" class="btn btn-success">Zum Produkt -&gt;</a>
+                                <h5 class="card-title">A shrimp fried this rice?!?!</h5>
+                                <p>10€</p>
+                                <a href="#" class="btn btn-danger">Zum Produkt -&gt;</a>
                             </div>
                         </div>
                     </div>
@@ -138,6 +139,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-<!--<script src="js/test.js"></script>-->
+<script type="module" src="js/main.js"></script>
 </body>
 </html>
