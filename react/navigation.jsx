@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client';
 
 function NavigationBar() {
-    // TODO: Actually implement a navigation bar
+    // TODO: Implement the function to make the cards of the carousle dynamic
     return <h1>Hello from Test!</h1>;
 }
 
