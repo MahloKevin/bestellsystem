@@ -1,11 +1,10 @@
 *{
-    font-family: "Roboto Thin";
+    font-family: "Roboto Thin", serif;
 }
 
 .mahlo_red {
     color: rgb(190, 58, 58);
-    bg-color: rgb(190, 58, 58);
-    text-color: rgb(190, 58, 58);
+    background-color: rgb(190, 58, 58);
 }
 
 .food_picture {
@@ -13,6 +12,15 @@
     height: 145px;
     object-fit: contain;
 
+}
+
+.mkiosk{
+    width: 200px;
+    height: 100px;
+}
+
+.login_bg{
+    background-color: rgb(238, 238, 238);
 }
 
 div.card_fit{
