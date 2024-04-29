@@ -44,6 +44,12 @@
 
 }
 
+.loginSVG{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
 .mkiosk{
     width: 200px;
     height: 100px;
