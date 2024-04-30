@@ -55,7 +55,7 @@
                 <div class="carousel-item active">
                     <div class="card-wrapper container-sm d-flex justify-content-around">
                         <div class="card card_fit">
-                            <img src="img/food1.jpg" class="card-img-top food_picture">
+                            <img src="img/food1.jpg" draggable="false" class="card-img-top food_picture">
                             <div class="card-body">
                                 <h5 class="card-title">Frühlingsrollen</h5>
                                 <p>3€</p>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="card card_fit">
-                            <img src="img/food2.png" class="card-img-top food_picture"
+                            <img src="img/food2.png" draggable="false" class="card-img-top food_picture"
                                  alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Burger</h5>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <div class="card card_fit">
-                            <img src="img/food3.jpg" class="card-img-top food_picture"
+                            <img src="img/food3.jpg" draggable="false" class="card-img-top food_picture"
                                  alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Pasta</h5>
@@ -85,7 +85,7 @@
                 <div class="carousel-item">
                     <div class="card-wrapper container-sm d-flex justify-content-around">
                         <div class="card card_fit">
-                            <img src="img/food4.jpg" class="card-img-top food_picture">
+                            <img src="img/food4.jpg" draggable="false" class="card-img-top food_picture">
                             <div class="card-body">
                                 <h5 class="card-title">A shrimp fried this rice??!</h5>
                                 <p>5€</p>
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="card card_fit">
-                            <img src="img/food5.jpg" class="card-img-top food_picture">
+                            <img src="img/food5.jpg" draggable="false" class="card-img-top food_picture">
                             <div class="card-body">
                                 <h5 class="card-title">Pasta</h5>
                                 <p>10€</p>
@@ -101,7 +101,7 @@
                             </div>
                         </div>
                         <div class="card card_fit">
-                            <img src="img/food6.jpg" class="card-img-top food_picture">
+                            <img src="img/food6.jpg" draggable="false" class="card-img-top food_picture">
                             <div class="card-body">
                                 <h5 class="card-title">Food</h5>
                                 <p>10€</p>
@@ -110,20 +110,22 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev bg-black" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon text-black" aria-hidden="true"></span>
-                    <span class="text-black">&lt;</span>
-                </button>
-                <button class="carousel-control-next bg-black" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="text-black">&gt;</span>
-                </button>
             </div>
+            <!-- Carousel Control Buttons außerhalb des carousel-inner -->
+            <button class="carousel-control-prev bg-black" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="text-black">
+                    <i class="fa-solid fa-arrow-left fa-xl"></i>
+                </span>
+            </button>
+            <button class="carousel-control-next bg-black" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="text-black">
+                    <i class="fa-solid fa-arrow-right fa-xl"></i>
+                </span>
+            </button>
         </div>
     </div>
 </main>
+
 
 <footer class="navbar navbar-expand-lg bottom-0">
     <div class="container">
